@@ -1,0 +1,181 @@
+@font-face {
+  font-display: swap;
+  font-family: "Play";
+  font-weight: 700;
+  src: url("../fonts/play-v17-latin-700.woff2") format("woff2"),
+    url("../fonts/play-v17-latin-700.ttf") format("truetype");
+}
+@font-face {
+  font-display: swap;
+  font-family: "Roboto";
+  font-weight: 400;
+  src: url("../fonts/roboto-v30-latin-regular.woff2") format("woff2"),
+    url("../fonts/roboto-v30-latin-regular.ttf") format("truetype");
+}
+@font-face {
+  font-display: swap;
+  font-family: "Roboto";
+  font-weight: 500;
+  src: url("../fonts/roboto-v30-latin-500.woff2") format("woff2"),
+    url("../fonts/roboto-v30-latin-500.ttf") format("truetype");
+}
+
+:root {
+  --color-brand-dark: #011c44;
+  --color-brand-light: #2b7fff;
+  --color-primary-light: #ffffff;
+}
+
+/* Base */
+body {
+  color: var(--color-brand-dark);
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1.7;
+}
+
+ul {
+  list-style-type: none;
+}
+
+address {
+  font-style: normal;
+}
+/* Link */
+
+.link {
+  color: var(--color-brand-dark);
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.2;
+}
+
+.link:hover {
+  color: var(--color-brand-light);
+  font-weight: 700;
+}
+
+/* Button */
+.button {
+  color: var(--color-primary-light);
+  background-color: var(--color-brand-light);
+  border: 2px solid var(--color-brand-light);
+  border-radius: 32px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.button:hover {
+  color: var(--color-brand-dark);
+  background-color: transparent;
+}
+
+/* Hero section */
+
+.hero-title {
+  font-family: "Play";
+  color: var(--color-brand-light);
+  font-weight: 700;
+  font-size: 140px;
+  text-transform: capitalize;
+}
+
+.advice-text {
+  color: #4a4a4a;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+/* General section */
+
+.general-section {
+  font-family: "Play", sans-serif;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 1.2;
+}
+
+.general-accent {
+  color: var(--color-brand-light);
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.general-text {
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+/* Advantage section */
+
+.advantage-section {
+  font-family: "Play", sans-serif;
+  text-align: center;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 1.2;
+}
+
+.advantage-accent {
+  color: var(--color-brand-light);
+}
+
+.advantage-text {
+  color: #000000;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+/* Procedures section */
+
+.procedures-section {
+  font-family: "Play", sans-serif;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.procedures-accent {
+  color: var(--color-brand-light);
+}
+
+.procedures-text {
+  color: var(--color-primary-light);
+  line-height: 1.2;
+  font-weight: 400;
+  font-size: 22px;
+}
+
+/* Contact section */
+
+.contact-section {
+  font-family: "Play", sans-serif;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.contact-accent {
+  color: var(--color-primary-light);
+}
+
+/* Footer */
+
+.address-link {
+  color: var(--color-primary-light);
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.2;
+}
+
+.address-copyright {
+  color: #747272;
+  font-size: 13px;
+}
